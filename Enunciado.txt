@@ -50,3 +50,11 @@ VALUES
 (11, 'O Cortiço', 'Aluísio Azevedo', 'Penguin Companhia', 1890, '9788579027048', 4, 5),
 (12, 'Dom Casmurro', 'Machado de Assis', 'Penguin Companhia', 1899, '9788583862093', 2, 5),
 (13, 'Macunaíma', 'Mário de Andrade', 'Companhia Editora Nacional', 1928, '9788503012302', 6, 3);
+
+Erros do código inicial:
+
+Virgula no ultimo campo na tabela livros
+
+no INSERT, a tabela "id" na verdade se chama "livros_id"
+
+no INSERT, os dados da tabela "isbn" excedem o numero de caractéres
