@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Enunciado][enunciado-url]
+[Enunciado][enunciado-url]
 
 ![Project Screnshoot][project-screenshot]
 
