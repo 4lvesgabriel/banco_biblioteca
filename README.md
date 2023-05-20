@@ -48,44 +48,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-### Parte Um / Part One
-<h3>Enunciado:</h3>
-<h3>Mãos a Obra</h3>
-<p>Analise a seguinte descrição e extraia dela os requisitos para o banco de dados:
-O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Os médicos podem ser generalistas, especialistas ou residentes e têm seus dados pessoais cadastrados em planilhas digitais. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia. Alguns registros antigos ainda estão em formulário de papel, mas será necessário incluir esses dados no novo sistema.
 
-Os pacientes também precisam de cadastro, contendo dados pessoais (nome, data de nascimento, endereço, telefone e e-mail), documentos (CPF e RG) e convênio. Para cada convênio, são registrados nome, CNPJ e tempo de carência.
-
-As consultas também têm sido registradas em planilhas, com data e hora de realização, médico responsável, paciente, valor da consulta ou nome do convênio, com o número da carteira. Também é necessário indicar na consulta qual a especialidade buscada pelo paciente.
-
-Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.</p>
+![Enunciado][enunciado-url]
 
 ![Project Screnshoot][project-screenshot]
 
-Above, an image of the diagram containing the tables: "Doctor", "Medical Speciality", "Consultation", "Patients", "Prescription" and "Health Insurance". Each table has its required fields as per the assignment.
+Above, an image of the code of the database showing some code and the table "Books" selected
 <br />
 <br />
-Acima, uma imagem do diagrama contendo as tabelas: "Medico", "EspecialidadeMedica", "Consulta", "Pacientes", "Receita" e "Convenio". Cada tabela tem seus campos necessários, conforme pedidos no enunciado.
-
-### Parte Dois / Part Two
-
-<h3>Enunciado:</h3>
-<h3>Mãos a Obra</h3>
-<p> Faça a ligação do diagrama acima ao diagrama desenvolvido na atividade antrior, construindo relacionamentos com entidades relacionadas. E eleve o seu diagrama para que já selecionando os tipos de dados que serão trabalhados e em quais situações. 
-
-Por último, crie um script SQL para a geração do banco de dados e para instruções de montagem de cada uma das entidades/tabelas presentes no diagrama completo (considerando as entidades do diagrama da atividade anterior e as novas entidades propostas no diagrama acima). Também crie tabelas para relacionamentos quando necessário. Aplique colunas e chaves primárias e estrangeiras.
-Use ferramentas, como ERPlus, Lucidchart, draw.io (via web) e MySQL Workbench, ou mesmo um editor de imagens para o diagrama. 
-
-Você pode utilizar o MySQL Workbench ou o DBdiagram.io para montar os scripts SQL.
-
-Importante: desse modelo já devemos gerar a etapa lógica da nossa modelagem!</p>
-
-![Project Screnshoot2][project-screenshot-2]
-
-Above, an image of the diagram containing the tables: "Doctor", "Medical Speciality", "Consultation", "Patients", "Prescription", "Health Insurance", "Nurse", "Room" and "Type of Room". Each table has its required fields as per the assignment, and tables have been updated.
-<br />
-<br />
-Acima, uma imagem do diagrama contendo as tabelas: "Medico", "EspecialidadeMedica", "Consulta", "Pacientes", "Receita", "Convenio", "Internações", "Quarto", "Enfermeiro", "Tipo de quarto". Cada tabela tem seus campos necessários, conforme pedidos no enunciado e as tabelas foram atualizadas.
+Acima, uma imagem do código do banco de dados mostrando um pouco do código e a tabela "Livros" selecionada.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -116,12 +87,14 @@ Para abrir os arquivos, você precisara do mySQL Workbench instalado.
 ### Installation
 
 1. Download the files on the "src" folder.
-2. Open "hospital_fundamental.mwb" with mySQL Workbench.
+2. Open "banco_biblioteca.sql" with mySQL Workbench.
+3. Execute the code clicking on the thunder symbol.
 
 ###
 
 1. Baixe os arquivos na pasta "src".
-2. Abra o arquivo "hospital_fundamental.mwb" com o mySQL Workbench.
+2. Abra o arquivo "banco_biblioteca.sql" com o mySQL Workbench.
+3. Execute o código clicando no simbolo de trovão.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -167,7 +140,7 @@ Project Link: [https://github.com/4lvesgabriel/hospital_bd](https://github.com/g
 
 
 <!-- MarkDowns -->
-[project-screenshot]: static/Print_Banco.png
-[project-screenshot-2]: static/Print_Banco2.png
+[project-screenshot]: static/banco_biblioteca.png
 [mySQL]: https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white
 [mySQL-url]: [https://www.mysql.com/](https://www.mysql.com/products/workbench/)
+[enunciado-url]: Enunciado.txt
